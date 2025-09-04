@@ -29,3 +29,8 @@ console.log(typeof bigInt); // "bigint"
 console.log(typeof obj); // "object"
 console.log(typeof arr); // "object"
 console.log(typeof func); // "function"
+
+
+// Memory Management
+// Primitive types are stored directly in the stack memory.
+// Reference/Non-Primitive types are stored in the heap memory, and the stack contains a reference to that memory location. Changes are done in original location only.
